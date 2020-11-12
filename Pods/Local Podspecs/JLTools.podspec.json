@@ -1,0 +1,22 @@
+{
+  "name": "JLTools",
+  "version": "0.1.0",
+  "summary": "A short description of JLTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lv16p2/JLTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lv16p2": "lq15512728505@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lv16p2/JLTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JLTools/Classes/**/*"
+}
