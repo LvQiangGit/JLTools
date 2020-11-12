@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,62 @@
 		91F4C97D255D17F20090EAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4C97C255D17F20090EAA6 /* main.m */; };
 		91F4C987255D17F20090EAA6 /* JLToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4C986255D17F20090EAA6 /* JLToolsDemoTests.m */; };
 		91F4C992255D17F20090EAA6 /* JLToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4C991255D17F20090EAA6 /* JLToolsDemoUITests.m */; };
+		91F4CAA9255D227F0090EAA6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA19255D227F0090EAA6 /* LICENSE */; };
+		91F4CAAA255D227F0090EAA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA1C255D227F0090EAA6 /* InfoPlist.strings */; };
+		91F4CAAB255D227F0090EAA6 /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA1E255D227F0090EAA6 /* Tests-Info.plist */; };
+		91F4CAAC255D227F0090EAA6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA1F255D227F0090EAA6 /* Tests.m */; };
+		91F4CAAD255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA27255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.plist */; };
+		91F4CAAE255D227F0090EAA6 /* Pods-JLTools_Example.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA28255D227F0090EAA6 /* Pods-JLTools_Example.release.xcconfig */; };
+		91F4CAAF255D227F0090EAA6 /* Pods-JLTools_Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA29255D227F0090EAA6 /* Pods-JLTools_Example-Info.plist */; };
+		91F4CAB0255D227F0090EAA6 /* Pods-JLTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA2A255D227F0090EAA6 /* Pods-JLTools_Example-dummy.m */; };
+		91F4CAB1255D227F0090EAA6 /* Pods-JLTools_Example-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA2C255D227F0090EAA6 /* Pods-JLTools_Example-frameworks.sh */; };
+		91F4CAB2255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA2E255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.markdown */; };
+		91F4CAB3255D227F0090EAA6 /* Pods-JLTools_Example.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA2F255D227F0090EAA6 /* Pods-JLTools_Example.debug.xcconfig */; };
+		91F4CAB4255D227F0090EAA6 /* Pods-JLTools_Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA31255D227F0090EAA6 /* Pods-JLTools_Tests-Info.plist */; };
+		91F4CAB5255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA32255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.plist */; };
+		91F4CAB6255D227F0090EAA6 /* Pods-JLTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA33255D227F0090EAA6 /* Pods-JLTools_Tests-dummy.m */; };
+		91F4CAB7255D227F0090EAA6 /* Pods-JLTools_Tests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA34255D227F0090EAA6 /* Pods-JLTools_Tests.release.xcconfig */; };
+		91F4CAB8255D227F0090EAA6 /* Pods-JLTools_Tests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA35255D227F0090EAA6 /* Pods-JLTools_Tests.debug.xcconfig */; };
+		91F4CAB9255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA37255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.markdown */; };
+		91F4CABA255D227F0090EAA6 /* Pods-JLTools_Tests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA39255D227F0090EAA6 /* Pods-JLTools_Tests-frameworks.sh */; };
+		91F4CABB255D227F0090EAA6 /* FBSnapshotTestCase.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA3C255D227F0090EAA6 /* FBSnapshotTestCase.release.xcconfig */; };
+		91F4CABC255D227F0090EAA6 /* FBSnapshotTestCase.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA3F255D227F0090EAA6 /* FBSnapshotTestCase.debug.xcconfig */; };
+		91F4CABD255D227F0090EAA6 /* FBSnapshotTestCase-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA40255D227F0090EAA6 /* FBSnapshotTestCase-Info.plist */; };
+		91F4CABE255D227F0090EAA6 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA41255D227F0090EAA6 /* FBSnapshotTestCase-dummy.m */; };
+		91F4CABF255D227F0090EAA6 /* JLTools.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA43255D227F0090EAA6 /* JLTools.release.xcconfig */; };
+		91F4CAC0255D227F0090EAA6 /* JLTools-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA44255D227F0090EAA6 /* JLTools-Info.plist */; };
+		91F4CAC1255D227F0090EAA6 /* JLTools.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA45255D227F0090EAA6 /* JLTools.debug.xcconfig */; };
+		91F4CAC2255D227F0090EAA6 /* JLTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA46255D227F0090EAA6 /* JLTools-dummy.m */; };
+		91F4CAC3255D227F0090EAA6 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA4A255D227F0090EAA6 /* Manifest.lock */; };
+		91F4CAC4255D227F0090EAA6 /* JLTools.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA4C255D227F0090EAA6 /* JLTools.podspec.json */; };
+		91F4CAC5255D227F0090EAA6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA4F255D227F0090EAA6 /* LICENSE */; };
+		91F4CAC6255D227F0090EAA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA50255D227F0090EAA6 /* README.md */; };
+		91F4CAC7255D227F0090EAA6 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA52255D227F0090EAA6 /* FBSnapshotTestCasePlatform.m */; };
+		91F4CAC8255D227F0090EAA6 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA54255D227F0090EAA6 /* FBSnapshotTestController.m */; };
+		91F4CAC9255D227F0090EAA6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA55255D227F0090EAA6 /* SwiftSupport.swift */; };
+		91F4CACA255D227F0090EAA6 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA56255D227F0090EAA6 /* FBSnapshotTestCase.m */; };
+		91F4CACB255D227F0090EAA6 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA5A255D227F0090EAA6 /* UIImage+Snapshot.m */; };
+		91F4CACC255D227F0090EAA6 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA5B255D227F0090EAA6 /* UIApplication+StrictKeyWindow.m */; };
+		91F4CACD255D227F0090EAA6 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA5C255D227F0090EAA6 /* UIImage+Compare.m */; };
+		91F4CACE255D227F0090EAA6 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA5D255D227F0090EAA6 /* UIImage+Diff.m */; };
+		91F4CACF255D227F0090EAA6 /* JLTools.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA62255D227F0090EAA6 /* JLTools.xcworkspace */; };
+		91F4CAD0255D227F0090EAA6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA63255D227F0090EAA6 /* Podfile */; };
+		91F4CAD1255D227F0090EAA6 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA67255D227F0090EAA6 /* Podfile.lock */; };
+		91F4CAD2255D227F0090EAA6 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA69255D227F0090EAA6 /* JLViewController.m */; };
+		91F4CAD3255D227F0090EAA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA6A255D227F0090EAA6 /* InfoPlist.strings */; };
+		91F4CAD4255D227F0090EAA6 /* JLTools-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA6D255D227F0090EAA6 /* JLTools-Info.plist */; };
+		91F4CAD5255D227F0090EAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA6E255D227F0090EAA6 /* LaunchScreen.storyboard */; };
+		91F4CAD6255D227F0090EAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA70255D227F0090EAA6 /* Main.storyboard */; };
+		91F4CAD7255D227F0090EAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA73255D227F0090EAA6 /* main.m */; };
+		91F4CAD8255D227F0090EAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA74255D227F0090EAA6 /* Images.xcassets */; };
+		91F4CAD9255D227F0090EAA6 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA75255D227F0090EAA6 /* JLAppDelegate.m */; };
+		91F4CADA255D227F0090EAA6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA77255D227F0090EAA6 /* README.md */; };
+		91F4CADB255D227F0090EAA6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA78255D227F0090EAA6 /* .gitignore */; };
+		91F4CADC255D227F0090EAA6 /* JLTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA79255D227F0090EAA6 /* JLTools.podspec */; };
+		91F4CADD255D227F0090EAA6 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA7A255D227F0090EAA6 /* .travis.yml */; };
+		91F4CADE255D227F0090EAA6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA7D255D227F0090EAA6 /* .gitkeep */; };
+		91F4CADF255D227F0090EAA6 /* JLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F4CA7F255D227F0090EAA6 /* JLTools.m */; };
+		91F4CAE0255D227F0090EAA6 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 91F4CA81255D227F0090EAA6 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +91,76 @@
 			proxyType = 1;
 			remoteGlobalIDString = 91F4C966255D17F00090EAA6;
 			remoteInfo = JLToolsDemo;
+		};
+		91F4CA86255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C4F31330DFA99D699E4BDC8C3573D73;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		91F4CA88255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 418353366FAECFC8F2255D57E1018FF5;
+			remoteInfo = JLTools;
+		};
+		91F4CA8A255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AF16435460AB1B2F9DD4A785DBA9510;
+			remoteInfo = "Pods-JLTools_Example";
+		};
+		91F4CA8C255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F135E1A07D412E96398980CEF65861A1;
+			remoteInfo = "Pods-JLTools_Tests";
+		};
+		91F4CA90255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA64255D227F0090EAA6 /* JLTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6003F58A195388D20070C39A;
+			remoteInfo = JLTools_Example;
+		};
+		91F4CA92255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA64255D227F0090EAA6 /* JLTools.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6003F5AE195388D20070C39A;
+			remoteInfo = JLTools_Tests;
+		};
+		91F4CA98255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C4F31330DFA99D699E4BDC8C3573D73;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		91F4CA9A255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 418353366FAECFC8F2255D57E1018FF5;
+			remoteInfo = JLTools;
+		};
+		91F4CA9C255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AF16435460AB1B2F9DD4A785DBA9510;
+			remoteInfo = "Pods-JLTools_Example";
+		};
+		91F4CA9E255D227F0090EAA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F135E1A07D412E96398980CEF65861A1;
+			remoteInfo = "Pods-JLTools_Tests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -63,6 +189,87 @@
 		91F4C98D255D17F20090EAA6 /* JLToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F4C991255D17F20090EAA6 /* JLToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLToolsDemoUITests.m; sourceTree = "<group>"; };
 		91F4C993255D17F20090EAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = _Pods.xcodeproj; sourceTree = "<group>"; };
+		91F4CA19255D227F0090EAA6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91F4CA1D255D227F0090EAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F4CA1E255D227F0090EAA6 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		91F4CA1F255D227F0090EAA6 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		91F4CA20255D227F0090EAA6 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		91F4CA27255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		91F4CA28255D227F0090EAA6 /* Pods-JLTools_Example.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91F4CA29255D227F0090EAA6 /* Pods-JLTools_Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Example-Info.plist"; sourceTree = "<group>"; };
+		91F4CA2A255D227F0090EAA6 /* Pods-JLTools_Example-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLTools_Example-dummy.m"; sourceTree = "<group>"; };
+		91F4CA2B255D227F0090EAA6 /* Pods-JLTools_Example.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLTools_Example.modulemap"; sourceTree = "<group>"; };
+		91F4CA2C255D227F0090EAA6 /* Pods-JLTools_Example-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-JLTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		91F4CA2D255D227F0090EAA6 /* Pods-JLTools_Example-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-JLTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		91F4CA2E255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-JLTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91F4CA2F255D227F0090EAA6 /* Pods-JLTools_Example.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91F4CA31255D227F0090EAA6 /* Pods-JLTools_Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		91F4CA32255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-JLTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91F4CA33255D227F0090EAA6 /* Pods-JLTools_Tests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		91F4CA34255D227F0090EAA6 /* Pods-JLTools_Tests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91F4CA35255D227F0090EAA6 /* Pods-JLTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-JLTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91F4CA36255D227F0090EAA6 /* Pods-JLTools_Tests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLTools_Tests.modulemap"; sourceTree = "<group>"; };
+		91F4CA37255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-JLTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91F4CA38255D227F0090EAA6 /* Pods-JLTools_Tests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-JLTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		91F4CA39255D227F0090EAA6 /* Pods-JLTools_Tests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-JLTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		91F4CA3B255D227F0090EAA6 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		91F4CA3C255D227F0090EAA6 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		91F4CA3D255D227F0090EAA6 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		91F4CA3E255D227F0090EAA6 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		91F4CA3F255D227F0090EAA6 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		91F4CA40255D227F0090EAA6 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		91F4CA41255D227F0090EAA6 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		91F4CA43255D227F0090EAA6 /* JLTools.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JLTools.release.xcconfig; sourceTree = "<group>"; };
+		91F4CA44255D227F0090EAA6 /* JLTools-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JLTools-Info.plist"; sourceTree = "<group>"; };
+		91F4CA45255D227F0090EAA6 /* JLTools.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JLTools.debug.xcconfig; sourceTree = "<group>"; };
+		91F4CA46255D227F0090EAA6 /* JLTools-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JLTools-dummy.m"; sourceTree = "<group>"; };
+		91F4CA47255D227F0090EAA6 /* JLTools.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = JLTools.modulemap; sourceTree = "<group>"; };
+		91F4CA48255D227F0090EAA6 /* JLTools-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLTools-umbrella.h"; sourceTree = "<group>"; };
+		91F4CA49255D227F0090EAA6 /* JLTools-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLTools-prefix.pch"; sourceTree = "<group>"; };
+		91F4CA4A255D227F0090EAA6 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		91F4CA4C255D227F0090EAA6 /* JLTools.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JLTools.podspec.json; sourceTree = "<group>"; };
+		91F4CA4F255D227F0090EAA6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91F4CA50255D227F0090EAA6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91F4CA52255D227F0090EAA6 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		91F4CA53255D227F0090EAA6 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		91F4CA54255D227F0090EAA6 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestController.m; sourceTree = "<group>"; };
+		91F4CA55255D227F0090EAA6 /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		91F4CA56255D227F0090EAA6 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		91F4CA57255D227F0090EAA6 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		91F4CA59255D227F0090EAA6 /* UIImage+Diff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Diff.h"; sourceTree = "<group>"; };
+		91F4CA5A255D227F0090EAA6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		91F4CA5B255D227F0090EAA6 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		91F4CA5C255D227F0090EAA6 /* UIImage+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compare.m"; sourceTree = "<group>"; };
+		91F4CA5D255D227F0090EAA6 /* UIImage+Diff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Diff.m"; sourceTree = "<group>"; };
+		91F4CA5E255D227F0090EAA6 /* UIImage+Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compare.h"; sourceTree = "<group>"; };
+		91F4CA5F255D227F0090EAA6 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		91F4CA60255D227F0090EAA6 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		91F4CA61255D227F0090EAA6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSnapshotTestController.h; sourceTree = "<group>"; };
+		91F4CA62255D227F0090EAA6 /* JLTools.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = JLTools.xcworkspace; sourceTree = "<group>"; };
+		91F4CA63255D227F0090EAA6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		91F4CA64255D227F0090EAA6 /* JLTools.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JLTools.xcodeproj; sourceTree = "<group>"; };
+		91F4CA67255D227F0090EAA6 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		91F4CA69255D227F0090EAA6 /* JLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
+		91F4CA6B255D227F0090EAA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F4CA6C255D227F0090EAA6 /* JLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		91F4CA6D255D227F0090EAA6 /* JLTools-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JLTools-Info.plist"; sourceTree = "<group>"; };
+		91F4CA6F255D227F0090EAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91F4CA71255D227F0090EAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91F4CA72255D227F0090EAA6 /* JLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
+		91F4CA73255D227F0090EAA6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F4CA74255D227F0090EAA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91F4CA75255D227F0090EAA6 /* JLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		91F4CA76255D227F0090EAA6 /* JLTools-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLTools-Prefix.pch"; sourceTree = "<group>"; };
+		91F4CA77255D227F0090EAA6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		91F4CA78255D227F0090EAA6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		91F4CA79255D227F0090EAA6 /* JLTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JLTools.podspec; sourceTree = "<group>"; };
+		91F4CA7A255D227F0090EAA6 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		91F4CA7D255D227F0090EAA6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		91F4CA7E255D227F0090EAA6 /* JLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTools.h; sourceTree = "<group>"; };
+		91F4CA7F255D227F0090EAA6 /* JLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTools.m; sourceTree = "<group>"; };
+		91F4CA81255D227F0090EAA6 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B67BB94411AB4631C3DCA70D /* Pods_JLToolsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLToolsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75107FE25823944B914E79C /* Pods-JLToolsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLToolsDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JLToolsDemoTests/Pods-JLToolsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E99FD96467B3BF0B9F156849 /* Pods-JLToolsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLToolsDemo.release.xcconfig"; path = "Target Support Files/Pods-JLToolsDemo/Pods-JLToolsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +313,6 @@
 				5B700669175BC8B0B075BF01 /* Pods-JLToolsDemoTests.debug.xcconfig */,
 				B75107FE25823944B914E79C /* Pods-JLToolsDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,6 +329,7 @@
 		91F4C95E255D17F00090EAA6 = {
 			isa = PBXGroup;
 			children = (
+				91F4CA14255D227E0090EAA6 /* Lib */,
 				91F4C969255D17F00090EAA6 /* JLToolsDemo */,
 				91F4C985255D17F20090EAA6 /* JLToolsDemoTests */,
 				91F4C990255D17F20090EAA6 /* JLToolsDemoUITests */,
@@ -176,6 +383,269 @@
 				91F4C993255D17F20090EAA6 /* Info.plist */,
 			);
 			path = JLToolsDemoUITests;
+			sourceTree = "<group>";
+		};
+		91F4CA14255D227E0090EAA6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA15255D227E0090EAA6 /* JLTools */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		91F4CA15255D227E0090EAA6 /* JLTools */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */,
+				91F4CA19255D227F0090EAA6 /* LICENSE */,
+				91F4CA1A255D227F0090EAA6 /* Example */,
+				91F4CA77255D227F0090EAA6 /* README.md */,
+				91F4CA78255D227F0090EAA6 /* .gitignore */,
+				91F4CA79255D227F0090EAA6 /* JLTools.podspec */,
+				91F4CA7A255D227F0090EAA6 /* .travis.yml */,
+				91F4CA7B255D227F0090EAA6 /* JLTools */,
+			);
+			path = JLTools;
+			sourceTree = "<group>";
+		};
+		91F4CA17255D227E0090EAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA87255D227F0090EAA6 /* FBSnapshotTestCase.framework */,
+				91F4CA89255D227F0090EAA6 /* JLTools.framework */,
+				91F4CA8B255D227F0090EAA6 /* Pods_JLTools_Example.framework */,
+				91F4CA8D255D227F0090EAA6 /* Pods_JLTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F4CA1A255D227F0090EAA6 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA1B255D227F0090EAA6 /* Tests */,
+				91F4CA21255D227F0090EAA6 /* Pods */,
+				91F4CA62255D227F0090EAA6 /* JLTools.xcworkspace */,
+				91F4CA63255D227F0090EAA6 /* Podfile */,
+				91F4CA64255D227F0090EAA6 /* JLTools.xcodeproj */,
+				91F4CA67255D227F0090EAA6 /* Podfile.lock */,
+				91F4CA68255D227F0090EAA6 /* JLTools */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		91F4CA1B255D227F0090EAA6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA1C255D227F0090EAA6 /* InfoPlist.strings */,
+				91F4CA1E255D227F0090EAA6 /* Tests-Info.plist */,
+				91F4CA1F255D227F0090EAA6 /* Tests.m */,
+				91F4CA20255D227F0090EAA6 /* Tests-Prefix.pch */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		91F4CA21255D227F0090EAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */,
+				91F4CA25255D227F0090EAA6 /* Target Support Files */,
+				91F4CA4A255D227F0090EAA6 /* Manifest.lock */,
+				91F4CA4B255D227F0090EAA6 /* Local Podspecs */,
+				91F4CA4D255D227F0090EAA6 /* Headers */,
+				91F4CA4E255D227F0090EAA6 /* FBSnapshotTestCase */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91F4CA23255D227F0090EAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA99255D227F0090EAA6 /* FBSnapshotTestCase.framework */,
+				91F4CA9B255D227F0090EAA6 /* JLTools.framework */,
+				91F4CA9D255D227F0090EAA6 /* Pods_JLTools_Example.framework */,
+				91F4CA9F255D227F0090EAA6 /* Pods_JLTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F4CA25255D227F0090EAA6 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA26255D227F0090EAA6 /* Pods-JLTools_Example */,
+				91F4CA30255D227F0090EAA6 /* Pods-JLTools_Tests */,
+				91F4CA3A255D227F0090EAA6 /* FBSnapshotTestCase */,
+				91F4CA42255D227F0090EAA6 /* JLTools */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		91F4CA26255D227F0090EAA6 /* Pods-JLTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA27255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.plist */,
+				91F4CA28255D227F0090EAA6 /* Pods-JLTools_Example.release.xcconfig */,
+				91F4CA29255D227F0090EAA6 /* Pods-JLTools_Example-Info.plist */,
+				91F4CA2A255D227F0090EAA6 /* Pods-JLTools_Example-dummy.m */,
+				91F4CA2B255D227F0090EAA6 /* Pods-JLTools_Example.modulemap */,
+				91F4CA2C255D227F0090EAA6 /* Pods-JLTools_Example-frameworks.sh */,
+				91F4CA2D255D227F0090EAA6 /* Pods-JLTools_Example-umbrella.h */,
+				91F4CA2E255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.markdown */,
+				91F4CA2F255D227F0090EAA6 /* Pods-JLTools_Example.debug.xcconfig */,
+			);
+			path = "Pods-JLTools_Example";
+			sourceTree = "<group>";
+		};
+		91F4CA30255D227F0090EAA6 /* Pods-JLTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA31255D227F0090EAA6 /* Pods-JLTools_Tests-Info.plist */,
+				91F4CA32255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.plist */,
+				91F4CA33255D227F0090EAA6 /* Pods-JLTools_Tests-dummy.m */,
+				91F4CA34255D227F0090EAA6 /* Pods-JLTools_Tests.release.xcconfig */,
+				91F4CA35255D227F0090EAA6 /* Pods-JLTools_Tests.debug.xcconfig */,
+				91F4CA36255D227F0090EAA6 /* Pods-JLTools_Tests.modulemap */,
+				91F4CA37255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.markdown */,
+				91F4CA38255D227F0090EAA6 /* Pods-JLTools_Tests-umbrella.h */,
+				91F4CA39255D227F0090EAA6 /* Pods-JLTools_Tests-frameworks.sh */,
+			);
+			path = "Pods-JLTools_Tests";
+			sourceTree = "<group>";
+		};
+		91F4CA3A255D227F0090EAA6 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA3B255D227F0090EAA6 /* FBSnapshotTestCase-prefix.pch */,
+				91F4CA3C255D227F0090EAA6 /* FBSnapshotTestCase.release.xcconfig */,
+				91F4CA3D255D227F0090EAA6 /* FBSnapshotTestCase-umbrella.h */,
+				91F4CA3E255D227F0090EAA6 /* FBSnapshotTestCase.modulemap */,
+				91F4CA3F255D227F0090EAA6 /* FBSnapshotTestCase.debug.xcconfig */,
+				91F4CA40255D227F0090EAA6 /* FBSnapshotTestCase-Info.plist */,
+				91F4CA41255D227F0090EAA6 /* FBSnapshotTestCase-dummy.m */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		91F4CA42255D227F0090EAA6 /* JLTools */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA43255D227F0090EAA6 /* JLTools.release.xcconfig */,
+				91F4CA44255D227F0090EAA6 /* JLTools-Info.plist */,
+				91F4CA45255D227F0090EAA6 /* JLTools.debug.xcconfig */,
+				91F4CA46255D227F0090EAA6 /* JLTools-dummy.m */,
+				91F4CA47255D227F0090EAA6 /* JLTools.modulemap */,
+				91F4CA48255D227F0090EAA6 /* JLTools-umbrella.h */,
+				91F4CA49255D227F0090EAA6 /* JLTools-prefix.pch */,
+			);
+			path = JLTools;
+			sourceTree = "<group>";
+		};
+		91F4CA4B255D227F0090EAA6 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA4C255D227F0090EAA6 /* JLTools.podspec.json */,
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		91F4CA4D255D227F0090EAA6 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		91F4CA4E255D227F0090EAA6 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA4F255D227F0090EAA6 /* LICENSE */,
+				91F4CA50255D227F0090EAA6 /* README.md */,
+				91F4CA51255D227F0090EAA6 /* FBSnapshotTestCase */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		91F4CA51255D227F0090EAA6 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA52255D227F0090EAA6 /* FBSnapshotTestCasePlatform.m */,
+				91F4CA53255D227F0090EAA6 /* FBSnapshotTestCase.h */,
+				91F4CA54255D227F0090EAA6 /* FBSnapshotTestController.m */,
+				91F4CA55255D227F0090EAA6 /* SwiftSupport.swift */,
+				91F4CA56255D227F0090EAA6 /* FBSnapshotTestCase.m */,
+				91F4CA57255D227F0090EAA6 /* FBSnapshotTestCasePlatform.h */,
+				91F4CA58255D227F0090EAA6 /* Categories */,
+				91F4CA61255D227F0090EAA6 /* FBSnapshotTestController.h */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		91F4CA58255D227F0090EAA6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA59255D227F0090EAA6 /* UIImage+Diff.h */,
+				91F4CA5A255D227F0090EAA6 /* UIImage+Snapshot.m */,
+				91F4CA5B255D227F0090EAA6 /* UIApplication+StrictKeyWindow.m */,
+				91F4CA5C255D227F0090EAA6 /* UIImage+Compare.m */,
+				91F4CA5D255D227F0090EAA6 /* UIImage+Diff.m */,
+				91F4CA5E255D227F0090EAA6 /* UIImage+Compare.h */,
+				91F4CA5F255D227F0090EAA6 /* UIApplication+StrictKeyWindow.h */,
+				91F4CA60255D227F0090EAA6 /* UIImage+Snapshot.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		91F4CA65255D227F0090EAA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA91255D227F0090EAA6 /* JLTools_Example.app */,
+				91F4CA93255D227F0090EAA6 /* JLTools_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F4CA68255D227F0090EAA6 /* JLTools */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA69255D227F0090EAA6 /* JLViewController.m */,
+				91F4CA6A255D227F0090EAA6 /* InfoPlist.strings */,
+				91F4CA6C255D227F0090EAA6 /* JLAppDelegate.h */,
+				91F4CA6D255D227F0090EAA6 /* JLTools-Info.plist */,
+				91F4CA6E255D227F0090EAA6 /* LaunchScreen.storyboard */,
+				91F4CA70255D227F0090EAA6 /* Main.storyboard */,
+				91F4CA72255D227F0090EAA6 /* JLViewController.h */,
+				91F4CA73255D227F0090EAA6 /* main.m */,
+				91F4CA74255D227F0090EAA6 /* Images.xcassets */,
+				91F4CA75255D227F0090EAA6 /* JLAppDelegate.m */,
+				91F4CA76255D227F0090EAA6 /* JLTools-Prefix.pch */,
+			);
+			path = JLTools;
+			sourceTree = "<group>";
+		};
+		91F4CA7B255D227F0090EAA6 /* JLTools */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA7C255D227F0090EAA6 /* Classes */,
+				91F4CA80255D227F0090EAA6 /* Assets */,
+			);
+			path = JLTools;
+			sourceTree = "<group>";
+		};
+		91F4CA7C255D227F0090EAA6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA7D255D227F0090EAA6 /* .gitkeep */,
+				91F4CA7E255D227F0090EAA6 /* JLTools.h */,
+				91F4CA7F255D227F0090EAA6 /* JLTools.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		91F4CA80255D227F0090EAA6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				91F4CA81255D227F0090EAA6 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +741,20 @@
 			mainGroup = 91F4C95E255D17F00090EAA6;
 			productRefGroup = 91F4C968255D17F00090EAA6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 91F4CA17255D227E0090EAA6 /* Products */;
+					ProjectRef = 91F4CA16255D227E0090EAA6 /* _Pods.xcodeproj */;
+				},
+				{
+					ProductGroup = 91F4CA65255D227F0090EAA6 /* Products */;
+					ProjectRef = 91F4CA64255D227F0090EAA6 /* JLTools.xcodeproj */;
+				},
+				{
+					ProductGroup = 91F4CA23255D227F0090EAA6 /* Products */;
+					ProjectRef = 91F4CA22255D227F0090EAA6 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				91F4C966255D17F00090EAA6 /* JLToolsDemo */,
@@ -280,14 +764,126 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		91F4CA87255D227F0090EAA6 /* FBSnapshotTestCase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSnapshotTestCase.framework;
+			remoteRef = 91F4CA86255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA89255D227F0090EAA6 /* JLTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JLTools.framework;
+			remoteRef = 91F4CA88255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA8B255D227F0090EAA6 /* Pods_JLTools_Example.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_JLTools_Example.framework;
+			remoteRef = 91F4CA8A255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA8D255D227F0090EAA6 /* Pods_JLTools_Tests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_JLTools_Tests.framework;
+			remoteRef = 91F4CA8C255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA91255D227F0090EAA6 /* JLTools_Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = JLTools_Example.app;
+			remoteRef = 91F4CA90255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA93255D227F0090EAA6 /* JLTools_Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JLTools_Tests.xctest;
+			remoteRef = 91F4CA92255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA99255D227F0090EAA6 /* FBSnapshotTestCase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSnapshotTestCase.framework;
+			remoteRef = 91F4CA98255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA9B255D227F0090EAA6 /* JLTools.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JLTools.framework;
+			remoteRef = 91F4CA9A255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA9D255D227F0090EAA6 /* Pods_JLTools_Example.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_JLTools_Example.framework;
+			remoteRef = 91F4CA9C255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		91F4CA9F255D227F0090EAA6 /* Pods_JLTools_Tests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_JLTools_Tests.framework;
+			remoteRef = 91F4CA9E255D227F0090EAA6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		91F4C965255D17F00090EAA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F4CAD0255D227F0090EAA6 /* Podfile in Resources */,
+				91F4CAD3255D227F0090EAA6 /* InfoPlist.strings in Resources */,
+				91F4CAAE255D227F0090EAA6 /* Pods-JLTools_Example.release.xcconfig in Resources */,
+				91F4CAC1255D227F0090EAA6 /* JLTools.debug.xcconfig in Resources */,
+				91F4CADE255D227F0090EAA6 /* .gitkeep in Resources */,
+				91F4CAB9255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.markdown in Resources */,
+				91F4CAB7255D227F0090EAA6 /* Pods-JLTools_Tests.release.xcconfig in Resources */,
+				91F4CAB5255D227F0090EAA6 /* Pods-JLTools_Tests-acknowledgements.plist in Resources */,
+				91F4CAD5255D227F0090EAA6 /* LaunchScreen.storyboard in Resources */,
+				91F4CAC3255D227F0090EAA6 /* Manifest.lock in Resources */,
+				91F4CAD8255D227F0090EAA6 /* Images.xcassets in Resources */,
+				91F4CADD255D227F0090EAA6 /* .travis.yml in Resources */,
+				91F4CAC0255D227F0090EAA6 /* JLTools-Info.plist in Resources */,
+				91F4CAB8255D227F0090EAA6 /* Pods-JLTools_Tests.debug.xcconfig in Resources */,
 				91F4C97A255D17F20090EAA6 /* LaunchScreen.storyboard in Resources */,
+				91F4CAB2255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.markdown in Resources */,
+				91F4CAC6255D227F0090EAA6 /* README.md in Resources */,
 				91F4C977255D17F20090EAA6 /* Assets.xcassets in Resources */,
+				91F4CAA9255D227F0090EAA6 /* LICENSE in Resources */,
 				91F4C975255D17F00090EAA6 /* Main.storyboard in Resources */,
+				91F4CABB255D227F0090EAA6 /* FBSnapshotTestCase.release.xcconfig in Resources */,
+				91F4CABD255D227F0090EAA6 /* FBSnapshotTestCase-Info.plist in Resources */,
+				91F4CAC5255D227F0090EAA6 /* LICENSE in Resources */,
+				91F4CACF255D227F0090EAA6 /* JLTools.xcworkspace in Resources */,
+				91F4CAD6255D227F0090EAA6 /* Main.storyboard in Resources */,
+				91F4CADC255D227F0090EAA6 /* JLTools.podspec in Resources */,
+				91F4CAC4255D227F0090EAA6 /* JLTools.podspec.json in Resources */,
+				91F4CAE0255D227F0090EAA6 /* .gitkeep in Resources */,
+				91F4CAD1255D227F0090EAA6 /* Podfile.lock in Resources */,
+				91F4CAB4255D227F0090EAA6 /* Pods-JLTools_Tests-Info.plist in Resources */,
+				91F4CAAB255D227F0090EAA6 /* Tests-Info.plist in Resources */,
+				91F4CAB1255D227F0090EAA6 /* Pods-JLTools_Example-frameworks.sh in Resources */,
+				91F4CABF255D227F0090EAA6 /* JLTools.release.xcconfig in Resources */,
+				91F4CADA255D227F0090EAA6 /* README.md in Resources */,
+				91F4CADB255D227F0090EAA6 /* .gitignore in Resources */,
+				91F4CAD4255D227F0090EAA6 /* JLTools-Info.plist in Resources */,
+				91F4CAB3255D227F0090EAA6 /* Pods-JLTools_Example.debug.xcconfig in Resources */,
+				91F4CABC255D227F0090EAA6 /* FBSnapshotTestCase.debug.xcconfig in Resources */,
+				91F4CABA255D227F0090EAA6 /* Pods-JLTools_Tests-frameworks.sh in Resources */,
+				91F4CAAD255D227F0090EAA6 /* Pods-JLTools_Example-acknowledgements.plist in Resources */,
+				91F4CAAF255D227F0090EAA6 /* Pods-JLTools_Example-Info.plist in Resources */,
+				91F4CAAA255D227F0090EAA6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +1011,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F4CAD9255D227F0090EAA6 /* JLAppDelegate.m in Sources */,
 				91F4C972255D17F00090EAA6 /* ViewController.m in Sources */,
+				91F4CACA255D227F0090EAA6 /* FBSnapshotTestCase.m in Sources */,
+				91F4CAC2255D227F0090EAA6 /* JLTools-dummy.m in Sources */,
+				91F4CACB255D227F0090EAA6 /* UIImage+Snapshot.m in Sources */,
+				91F4CAD2255D227F0090EAA6 /* JLViewController.m in Sources */,
+				91F4CAB6255D227F0090EAA6 /* Pods-JLTools_Tests-dummy.m in Sources */,
+				91F4CACE255D227F0090EAA6 /* UIImage+Diff.m in Sources */,
+				91F4CAC9255D227F0090EAA6 /* SwiftSupport.swift in Sources */,
+				91F4CAD7255D227F0090EAA6 /* main.m in Sources */,
+				91F4CABE255D227F0090EAA6 /* FBSnapshotTestCase-dummy.m in Sources */,
+				91F4CADF255D227F0090EAA6 /* JLTools.m in Sources */,
+				91F4CAB0255D227F0090EAA6 /* Pods-JLTools_Example-dummy.m in Sources */,
 				91F4C96C255D17F00090EAA6 /* AppDelegate.m in Sources */,
+				91F4CAC8255D227F0090EAA6 /* FBSnapshotTestController.m in Sources */,
+				91F4CACC255D227F0090EAA6 /* UIApplication+StrictKeyWindow.m in Sources */,
 				91F4C97D255D17F20090EAA6 /* main.m in Sources */,
+				91F4CAAC255D227F0090EAA6 /* Tests.m in Sources */,
+				91F4CAC7255D227F0090EAA6 /* FBSnapshotTestCasePlatform.m in Sources */,
 				91F4C96F255D17F00090EAA6 /* SceneDelegate.m in Sources */,
+				91F4CACD255D227F0090EAA6 /* UIImage+Compare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +1081,38 @@
 				91F4C979255D17F20090EAA6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		91F4CA1C255D227F0090EAA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CA1D255D227F0090EAA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91F4CA6A255D227F0090EAA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CA6B255D227F0090EAA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91F4CA6E255D227F0090EAA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CA6F255D227F0090EAA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		91F4CA70255D227F0090EAA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F4CA71255D227F0090EAA6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -627,6 +1272,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B700669175BC8B0B075BF01 /* Pods-JLToolsDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BA6JPD8SYU;
@@ -648,6 +1294,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B75107FE25823944B914E79C /* Pods-JLToolsDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BA6JPD8SYU;
@@ -669,6 +1316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B7DD6AF02FC8FE57CF74F70 /* Pods-JLToolsDemo-JLToolsDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BA6JPD8SYU;
 				INFOPLIST_FILE = JLToolsDemoUITests/Info.plist;
@@ -688,6 +1336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54D0A6F4D22FDB9090D9AC34 /* Pods-JLToolsDemo-JLToolsDemoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BA6JPD8SYU;
 				INFOPLIST_FILE = JLToolsDemoUITests/Info.plist;
